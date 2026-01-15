@@ -27,6 +27,7 @@ html {
   --colorSecondary: #da3778;
   --colorBlack: #000000;
   --colorWhite: #ffffff;
+  --colorWhiteOverlay: rgba(212, 210, 212, 1);
 }
 
 /* Navbar Starts */
@@ -167,4 +168,54 @@ main {
     border: 1px solid white;
     padding-top: 15px;
   }
+}
+
+/* Gallery */
+.gal-img {
+  /* width: 19em !important; */
+  height: 200px;
+}
+.gal-img img {
+  width: 100% !important;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+/* Configuration */
+.config-block .row {
+  justify-content: center;
+}
+
+.config-inner {
+  text-align: center;
+  font-weight: normal;
+  min-height: 150px;
+  padding: 10px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 0px 7px 0px var(--colorWhiteOverlay);
+  -moz-box-shadow: 0px 0px 7px 0px var(--colorWhiteOverlay);
+  box-shadow: 0px 0px 7px 0px var(--colorWhiteOverlay);
+  border-radius: 30px 0px 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.config-price {
+  background: var(--colorPrimary);
+  width: 75%;
+  margin: 15px auto;
+  padding: 8px;
+  text-transform: uppercase;
+  border-radius: 15px 0px;
+  font-size: 18px;
+}
+
+.config-price a {
+  text-decoration: none;
+  color: var(--colorWhite);
 }
