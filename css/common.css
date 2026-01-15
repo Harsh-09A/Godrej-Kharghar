@@ -64,6 +64,10 @@
   border-left: 1px solid var(--colorBlack);
 }
 
+.action-footer li a {
+  color: var(--colorWhite);
+}
+
 .action-footer li:first-child {
   border-left: none !important;
 }

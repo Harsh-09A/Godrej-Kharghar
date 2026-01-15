@@ -88,62 +88,72 @@
           <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mobileMenu"
+            aria-controls="mobileMenu"
             aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"> </span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#slider_section">
-                  <i class="fa-solid fa-house nav-icon"></i>
-                  <span class="d-sm-inline"> Home </span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#overview_section">
-                  <i class="fa-solid fa-coins nav-icon"></i>
-                  <span class="d-sm-inline"> Overview </span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#gallery_section">
-                  <i class="fa-solid fa-images nav-icon"></i>
-                  <span class="d-sm-inline"> Gallery </span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#configuration_section">
-                  <i class="fa-solid fa-sliders nav-icon"></i>
-                  <span class="d-sm-inline"> Configuration </span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#amenities_section">
-                  <i class="fa-solid fa-wifi nav-icon"></i>
-                  <span class="d-sm-inline"> Amenities </span>
-                </a>
-              </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#location_section">
-                  <i class="fa-solid fa-map-location nav-icon"></i>
-                  <span class="d-sm-inline"> Location </span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about_section">
-                  <i class="fa-solid fa-user nav-icon"></i>
-                  <span class="d-sm-inline"> About Us </span>
-                </a>
-              </li>
-            </ul>
+          <div class="offcanvas offcanvas-start" id="mobileMenu">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title">Menu</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#slider_section">
+                    <i class="fa-solid fa-house nav-icon fa-beat"></i>
+                    <span class="d-sm-inline"> Home </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#overview_section">
+                    <i class="fa-solid fa-coins nav-icon fa-beat"></i>
+                    <span class="d-sm-inline"> Overview </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#gallery_section">
+                    <i class="fa-solid fa-images nav-icon fa-beat"></i>
+                    <span class="d-sm-inline"> Gallery </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#configuration_section">
+                    <i class="fa-solid fa-sliders nav-icon fa-beat"></i>
+                    <span class="d-sm-inline"> Configuration </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#amenities_section">
+                    <i class="fa-solid fa-wifi nav-icon fa-beat"></i>
+                    <span class="d-sm-inline"> Amenities </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#location_section">
+                    <i class="fa-solid fa-map-location nav-icon fa-beat"></i>
+                    <span class="d-sm-inline"> Location </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about_section">
+                    <i class="fa-solid fa-user nav-icon fa-beat"></i>
+                    <span class="d-sm-inline"> About Us </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
@@ -464,6 +474,640 @@
           </div>
         </div>
       </section>
+
+      <!-- amenities -->
+      <section id="amenities_section" class="py-4">
+        <div class="container">
+          <div class="section_heading" data-aos="fade-up">
+            <h2 class="section-heading text-center text-uppercase pb-4">
+              Amenities
+            </h2>
+          </div>
+
+          <div class="section-content">
+            <div class="container-fluid px-4">
+              <div class="row row-cols-1 row-cols-md-3">
+                <div class="col-md-3">
+                  <div class="amenities-card">
+                    <div class="photo img1"></div>
+                    <div class="title">
+                      <h4 class="rainbow-text">SWIMMING POOL</h4>
+                      <!-- <h5>Tranqueras 2016</h5> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="amenities-card">
+                    <div class="photo img2"></div>
+                    <div class="title">
+                      <h4 class="rainbow-text">GYMNASIUM</h4>
+                      <!-- <h5>Tranqueras 2017</h5> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="amenities-card">
+                    <div class="photo img3"></div>
+                    <div class="title">
+                      <h4 class="rainbow-text">SENIOR CITIZEN SIT-OUT</h4>
+                      <!-- <h5>Tranqueras 2017</h5> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="amenities-card">
+                    <div class="photo img4"></div>
+                    <div class="title">
+                      <h4 class="rainbow-text">CLUBHOUSE</h4>
+                      <!-- <h5>Tranqueras 2017</h5> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="amenities-card">
+                    <div class="photo img5"></div>
+                    <div class="title">
+                      <h4 class="rainbow-text">YOGA</h4>
+                      <!-- <h5>Tranqueras 2017</h5> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="amenities-card">
+                    <div class="photo img6"></div>
+                    <div class="title">
+                      <h4 class="rainbow-text">STAR GAZING DECK</h4>
+                      <!-- <h5>Tranqueras 2017</h5> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="amenities-card">
+                    <div class="photo img7"></div>
+                    <div class="title">
+                      <h4 class="rainbow-text">LANDSCAPED GARDENS</h4>
+                      <!-- <h5>Tranqueras 2017</h5> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="amenities-card">
+                    <div class="photo img8"></div>
+                    <div class="title">
+                      <h4 class="rainbow-text">AMPHITHEATRE</h4>
+                      <!-- <h5>Tranqueras 2017</h5> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Location Section -->
+      <section id="location_section" class="location-section pt-4 mt-4">
+        <div class="container">
+          <!-- <div class="section-title" data-aos="fade-up">
+            <h2>Location & Connectivity</h2>
+            <p>Perfectly positioned for convenience</p>
+          </div> -->
+
+          <div class="section_heading" data-aos="fade-up">
+            <h2 class="section-heading text-center text-uppercase pb-4">
+              Location & Connectivity
+            </h2>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-12 col-md-6 mt-3"
+              data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="location-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.8436052050943!2d73.05368839678952!3d19.026612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c30047331c5b%3A0xa919ce8756accf07!2sGODREJ%20KHARGHAR!5e0!3m2!1sen!2sin!4v1768484491119!5m2!1sen!2sin"
+                  width="100%"
+                  height="100%"
+                  frameborder="0"
+                  style="border: 0"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  tabindex="0"></iframe>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 mt-3"
+              data-aos="fade-up"
+              data-aos-delay="250">
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent">
+                <!-- Transit Tab -->
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-transit"
+                  role="tabpanel"
+                  aria-labelledby="pills-transit-tab">
+                  <!-- Insert Transit Cards Here (as-is from your original HTML) -->
+                  <!-- Metro -->
+                  <div class="location-card" data-point="metro">
+                    <div class="location-icon">
+                      <i class="fas fa-train"></i>
+                    </div>
+                    <div class="location-info">
+                      <h4 class="location-name">Belpada Metro Station</h4>
+                      <p class="location-distance">
+                        <i class="fas fa-route"></i> 1 km away
+                      </p>
+                    </div>
+                    <div class="time-badge">
+                      <i class="fas fa-clock"></i> 2 Mins
+                    </div>
+                  </div>
+                  <div class="location-card" data-point="airport">
+                    <div class="location-icon">
+                      <i class="fas fa-road"></i>
+                    </div>
+                    <div class="location-info">
+                      <h4 class="location-name">Sion-Panvel Highway</h4>
+                      <p class="location-distance">
+                        <i class="fas fa-route"></i> 7 km away
+                      </p>
+                    </div>
+                    <div class="time-badge">
+                      <i class="fas fa-clock"></i> 5 Mins
+                    </div>
+                  </div>
+
+                  <div class="location-card" data-point="highway">
+                    <div class="location-icon">
+                      <i class="fas fa-plane"></i>
+                    </div>
+                    <div class="location-info">
+                      <h4 class="location-name">
+                        Navi Mumbai International Airport
+                      </h4>
+                      <p class="location-distance">
+                        <i class="fas fa-route"></i> 3 km away
+                      </p>
+                    </div>
+                    <div class="time-badge">
+                      <i class="fas fa-clock"></i> 20 Mins
+                    </div>
+                  </div>
+
+                  <div class="location-card" data-point="business">
+                    <div class="location-icon">
+                      <i class="fas fa-subway"></i>
+                    </div>
+                    <div class="location-info">
+                      <h4 class="location-name">Kharghar Metro Station</h4>
+                      <p class="location-distance">
+                        <i class="fas fa-route"></i> 1 km away
+                      </p>
+                    </div>
+                    <div class="time-badge">
+                      <i class="fas fa-clock"></i> 10 Mins
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Location Section End -->
+
+      <!-- About Section -->
+      <section id="about_section" class="container-fluid p-4 mt-3">
+        <div class="about_overlay">
+          <div class="container pt-2">
+            <div class="row">
+              <div class="col-12 col-lg-6 p-5 about-para-container">
+                <div class="text-center">
+                  <!-- <h2 class="section-heading text-white">About GAJORA INFRA</h2> -->
+                  <div class="section_heading" data-aos="fade-up">
+                    <h2
+                      class="section-heading text-center text-white text-uppercase pb-4">
+                      About Godrej Properties
+                    </h2>
+                  </div>
+
+                  <div
+                    class="text-white about-para"
+                    data-aos="fade-up"
+                    data-aos-delay="200">
+                    <p>
+                      Godrej Properties Limited (GPL) is the real estate arm of
+                      the 127-year-old Godrej Group, one of India's most trusted
+                      and diversified conglomerates. Established in 1990 and
+                      headquartered in Mumbai, the company has successfully
+                      translated its parent group's philosophy of innovation,
+                      sustainability, and excellence into the real estate
+                      industry, becoming the first Indian real estate developer
+                      to receive an ISO certification.
+                    </p>
+                    <span id="dots8" style="display: inline"></span>
+                    <span id="more8" style="display: none">
+                      <p>
+                        GPL is currently one of India's largest and only truly
+                        pan-India developers, with landmark residential,
+                        commercial, and township projects in over 15 major
+                        cities, including Mumbai, Delhi-NCR, Bengaluru, Pune,
+                        and Hyderabad. The company has received over 400 awards
+                        for its commitment to cutting-edge design, green
+                        building practices, and quality construction, and
+                        achieved record pre-sales of over ₹29,444 crore in the
+                        financial year 2025, solidifying its market leadership.
+                      </p>
+                    </span>
+                  </div>
+                  <button
+                    onclick="toggleContent('dots8','more8', 'myBtn8')"
+                    class="read_more"
+                    id="myBtn8">
+                    Read More
+                  </button>
+                  <br />
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6 p-5">
+                <div class="text-center">
+                  <!-- <h3 class="section-heading text-white">CONTACT US</h3> -->
+                  <div class="section_heading" data-aos="fade-up">
+                    <h2
+                      class="section-heading text-center text-white text-uppercase pb-4">
+                      CONTACT US
+                    </h2>
+                  </div>
+                  <!-- Form -->
+                  <div
+                    class="enquire-section"
+                    data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div class="container">
+                      <form id="contact-form" class="text-center">
+                        <div class="mb-3">
+                          <label for="user_name" class="form-label">Name</label>
+                          <input
+                            type="text"
+                            class="form-control inputStyle shadow-none"
+                            name="user_name"
+                            id="user_name"
+                            placeholder="Name"
+                            autocomplete="off"
+                            required />
+                        </div>
+                        <div class="mb-3">
+                          <label for="user_email" class="form-label"
+                            >Email address</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control inputStyle shadow-none"
+                            name="user_email"
+                            id="user_email"
+                            placeholder="Email Address"
+                            autocomplete="off" />
+                        </div>
+                        <div class="mb-3">
+                          <label for="contact_number" class="form-label"
+                            >Phone Number</label
+                          >
+                          <input
+                            type="tel"
+                            class="form-control inputStyle shadow-none"
+                            id="contact_number"
+                            name="contact_number"
+                            pattern="[0-9]{10}"
+                            placeholder="Phone Number"
+                            oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                            oninput="setCustomValidity('')"
+                            required />
+                        </div>
+
+                        <div
+                          class="d-flex ps-1 pb-2"
+                          style="font-size: 9px; color: #bfbfbf">
+                          <input
+                            type="checkbox"
+                            checked=""
+                            required=""
+                            class="custom-control-input custom-control-input-green"
+                            id="privacy_check"
+                            data-gtm-form-interact-field-id="0" />
+
+                          <label
+                            class="ps-2 pb-2 custom-control-label"
+                            for="privacy_check">
+                            I consent to the use of my provided data in
+                            accordance with the
+                            <a
+                              href="privacy_policy.html"
+                              target="_blank"
+                              style="font: inherit; color: inherit"
+                              >privacy policy</a
+                            >.</label
+                          >
+                        </div>
+
+                        <button
+                          type="submit"
+                          class="btn btn-primary submit-btn w-100">
+                          Submit
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section Ends -->
     </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container text-center text-white">
+        <!-- <div class="d-flex justify-content-center">
+          <div class="qrcode">
+            <img src="img/logo/footer logo.png" />
+          </div>
+        </div> -->
+
+        <div class="">
+          <small>
+            <style>
+              .newlist {
+                list-style: none;
+                line-height: 25px;
+                padding-left: 22px;
+                text-align: center;
+              }
+              .newlist li:before {
+                content: "✓";
+                font-weight: 800;
+                margin-right: 10px;
+                font-size: 13px;
+                margin-left: -22px;
+              }
+            </style>
+            <ul class="newlist">
+              <li>
+                Project Registered under Government of India RERA Act 2016
+              </li>
+              <li>RERA Project Registration No:- Coming Soon</li>
+              <li>
+                Government RERA Authorised Advertiser's Registration No:-
+                A51700036861
+              </li>
+              <li><b>Site Address: </b> Kharghar, Sector 5A Navi Mumbai</li>
+            </ul>
+          </small>
+        </div>
+        <div>
+          <div>
+            <span>
+              Disclaimer :This website is managed by Aristo Real Estate
+              Consultants. Our Rera No. is A51700036861. We are an authorised
+              marketing partner for this project. The information provided on
+              this website is intended exclusively for informational purposes.
+              This Website Is Not An Official Site And It Belongs To The
+              Authorized Marketing Partner. All rights reserved. The content,
+              design, and information on this website are protected by copyright
+              and other intellectual property rights. Any unauthorized use or
+              reproduction of the content may violate applicable laws.
+            </span>
+            <span id="dots20" style="display: inline"></span>
+            <span id="more20" style="display: none">
+              <span>
+                For accurate and up-to-date information regarding services,
+                pricing, availability, and any other details, it is recommended
+                to contact us directly through the provided contact information
+                on this website. Thank you for visiting our website.
+              </span>
+            </span>
+            <br />
+            <span
+              class="read_more2"
+              onclick="toggleContent('dots20','more20', 'myBtn20')"
+              id="myBtn20">
+              Read More
+            </span>
+          </div>
+
+          <p class="pb-4 policy_links mt-2">
+            <a
+              href="privacy_policy.html"
+              target="_blank"
+              style="text-decoration: none">
+              Privacy Policy
+            </a>
+            |
+            <a
+              href="termsandcondition.html"
+              target="_blank"
+              style="text-decoration: none">
+              Terms And Conditions
+            </a>
+          </p>
+
+          <div class="mt-2">
+            <!-- <p>
+              Copyright © 2025 Invicta (Avianna Infra LLP). All RightsReserved.
+            </p> -->
+            <p class="pb-4 policy_links">
+              Designed & Developed by
+              <a
+                href="https://letsdigin.in/"
+                target="_blank"
+                style="text-decoration: none"
+                >DigIN Media</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Lead Capture Modal Form -->
+    <div
+      class="modal fade"
+      id="popupModal"
+      tabindex="-1"
+      aria-labelledby="leadModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="leadModalLabel">Enquire Now</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <div class="container text-center modal-logo">
+              <img src="img/logo/logo.png" alt="" height="50px" />
+
+              <p class="mt-2">Register Here And Avail The Best Offers!!</p>
+            </div>
+            <div class="container">
+              <!--Enquire Form  -->
+              <div class="enquire-section">
+                <span class="d-block text-center fw-bold my-2">
+                  Get The Best Quote
+                </span>
+                <div class="container">
+                  <!-- Form -->
+                  <form id="contact-form-modal" class="text-center">
+                    <div class="mb-3">
+                      <label for="user_name_modal" class="form-label"
+                        >Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control inputStyle shadow-none"
+                        name="user_name"
+                        id="user_name_modal"
+                        placeholder="Name *"
+                        autocomplete="off"
+                        required />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="user_email_modal" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control inputStyle shadow-none"
+                        name="user_email"
+                        id="user_email_modal"
+                        placeholder="Email Address"
+                        autocomplete="off" />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="contact_number_modal" class="form-label"
+                        >Phone Number</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control inputStyle shadow-none"
+                        name="contact_number"
+                        id="contact_number_modal"
+                        minlength="10"
+                        maxlength="10"
+                        pattern="[0-9]{10}"
+                        placeholder="Phone Number *"
+                        oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                        oninput="setCustomValidity('')"
+                        required />
+                    </div>
+
+                    <div
+                      class="d-flex ps-1 pb-2"
+                      style="font-size: 9px; color: #bfbfbf">
+                      <input
+                        type="checkbox"
+                        checked=""
+                        required=""
+                        class="custom-control-input custom-control-input-green"
+                        id="privacy_check_modal"
+                        data-gtm-form-interact-field-id="0" />
+
+                      <label
+                        class="ps-2 pb-2 custom-control-label"
+                        for="privacy_check_modal">
+                        I consent to the use of my provided data in accordance
+                        with the
+                        <a
+                          href="privacy_policy.html"
+                          target="_blank"
+                          style="font: inherit; color: inherit"
+                          >privacy policy</a
+                        >.</label
+                      >
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                      Submit
+                    </button>
+                    <p class="m-2 form_norms">
+                      <span>
+                        Your contact details are safe with us. <br />
+                      </span>
+                      <span> Our team will be in touch with you soon.</span>
+                    </p>
+                  </form>
+                </div>
+
+                <!-- <div class="or">or</div> -->
+
+                <!-- <div class="slide-submit poppins-regular poppins-regular">
+                  <button
+                    id="slide-submit-btn"
+                    class="poppins-regular ui-draggable ui-draggable-handle"
+                    style="left: 0px; transition: 100ms linear">
+                    <img
+                      loading="lazy"
+                      alt="Delta Prestige"
+                      src="./img/extras/swipe-arrow.png" />
+                  </button>
+                  <label> Slide to connect on WhatsApp</label>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Footer Fixed Button -->
+    <div class="container-fluid fixed-bottom action-footer-container">
+      <ul class="nav nav-fill action-footer">
+        <li
+          class="nav-item ps-1"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal"
+          data-modal-title="Book Site Visit">
+          <a class="text-decoration-none">
+            <i class="fa-solid fa-taxi fa-beat nav-icon"> </i> Site Visit
+          </a>
+        </li>
+        <li
+          class="nav-item ps-1"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal"
+          data-modal-title="Call Back">
+          <a class="text-decoration-none">
+            <i class="fa-solid fa-phone fa-beat me-2"></i> Call Back
+          </a>
+        </li>
+        <li
+          class="nav-item"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal"
+          data-modal-title="Download Brochure">
+          <i class="fa-solid fa-download fa-beat nav-icon"></i> Brochure
+        </li>
+      </ul>
+    </div>
+    <!-- Mobile Footer Fixed Button Ends -->
   </body>
 </html>
