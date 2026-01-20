@@ -760,3 +760,7 @@ main {
   color: var(--colorSecondary) !important;
   text-decoration: none;
 }
+
+.custom-control-label {
+  font-size: x-small !important;
+}
