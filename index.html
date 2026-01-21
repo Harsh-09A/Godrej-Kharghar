@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,10 +6,20 @@
     <title>GODREJ KHARGHAR</title>
 
     <!-- SEO -->
-    <meta property="og:title" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:description" content="" />
+    <meta property="og:title" content="Godrej Kharghar" />
+    <meta
+      property="og:url"
+      content="https://premiumpropertiesnavimumbai.com/godrej-kharghar/" />
+    <meta
+      property="og:image"
+      content="https://premiumpropertiesnavimumbai.com/godrej-kharghar/img/banners/desktop_banner1.jpg" />
+    <meta
+      property="og:description"
+      content="Godrej Properties presents an upcoming luxury gated community in Kharghar, offering thoughtfully designed 2, 3 & 4 BHK residences." />
+    <meta
+      name="description"
+      content="Godrej Properties presents an upcoming luxury gated community in Kharghar, offering thoughtfully designed 2, 3 & 4 BHK residences." />
+
     <meta name="robots" content="index, follow" />
 
     <!-- Favicon -->
@@ -31,6 +41,9 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"></script>
+
+    <!-- jQuery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- Font Awesome CDN -->
     <link
@@ -212,6 +225,79 @@
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- InfoBox -->
+        <div class="info-box text-center">
+          <span class="d-block info-status text-center effectGradient">
+            EOI WINDOW OPEN
+          </span>
+          <span class="info-title d-block text-center section-heading">
+            GODREJ KHARGHAR
+          </span>
+          <span class="info-location d-block text-center">
+            At Kharghar, Sector 5A
+          </span>
+
+          <!-- Offer Colored Box -->
+          <span
+            class="d-block mb-1 text-capitalize of-box offer-bg-animation mt-2 effectScale scale-up-center">
+            <span class="offer-text-outer">
+              <span class="offer-text">
+                <!-- Details Card -->
+                <div class="card-d">
+                  <div class="pri_plan">
+                    <div class="text-left">
+                      <p class="fs-5 text-uppercase m-0 p-0">
+                        EOI Amount 2 BHK- ₹ 2 Lacs*
+                      </p>
+                      <hr />
+                      <p class="fs-5 text-uppercase m-0 p-0">
+                        EOI Amount 3 BHK- ₹ 4 Lacs*
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </span>
+          </span>
+          <!-- Offer Colored Box -->
+          <span
+            class="d-block mb-1 text-capitalize of-box offer-bg-animation mt-2">
+            <span class="offer-text-outer">
+              <span class="offer-text">
+                <!-- Details Card -->
+                <div class="card-d">
+                  <div class="pri_plan">
+                    <div class="text-left">
+                      <p
+                        class="fs-5 fw-normal text-center text-capitalize m-0 p-0">
+                        Early Buy Discount
+                      </p>
+                      <hr />
+                      <p
+                        class="fs-5 fw-normal text-center text-capitalize m-0 p-0">
+                        Spot Booking Offers Only for 1st 100 Customers
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </span>
+          </span>
+
+          <div class="m-0 mt-3">
+            <h5 class="heading2">Luxury 2 & 3 BHK Homes At</h5>
+          </div>
+
+          <span class="info-price pb-3">₹ 2.25 Cr* Onwards </span>
+
+          <button
+            class="pro-button effectMoveGradient text-uppercase"
+            data-bs-toggle="modal"
+            data-bs-target="#popupModal">
+            Express Your Interest
           </button>
         </div>
       </section>
@@ -743,7 +829,7 @@
                     </span>
                   </div>
                   <button
-                    onclick="toggleContent('dots8','more8', 'myBtn8')"
+                    onclick="toggleContent('dots8', 'more8', 'myBtn8')"
                     class="read_more"
                     id="myBtn8">
                     Read More
@@ -802,7 +888,11 @@
                             name="contact_number"
                             pattern="[0-9]{10}"
                             placeholder="Phone Number"
-                            oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                            oninvalid="
+                              setCustomValidity(
+                                'Please enter a valid phone number. e.g., 12345-67890',
+                              )
+                            "
                             oninput="setCustomValidity('')"
                             required />
                         </div>
@@ -918,7 +1008,7 @@
             <br />
             <span
               class="read_more2"
-              onclick="toggleContent('dots20','more20', 'myBtn20')"
+              onclick="toggleContent('dots20', 'more20', 'myBtn20')"
               id="myBtn20">
               Read More
             </span>
@@ -1031,7 +1121,11 @@
                         maxlength="10"
                         pattern="[0-9]{10}"
                         placeholder="Phone Number *"
-                        oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                        oninvalid="
+                          setCustomValidity(
+                            'Please enter a valid phone number. e.g., 12345-67890',
+                          )
+                        "
                         oninput="setCustomValidity('')"
                         required />
                     </div>
@@ -1112,13 +1206,12 @@
             <i class="fa-solid fa-taxi fa-beat nav-icon"> </i> Site Visit
           </a>
         </li>
-        <li
-          class="nav-item ps-1"
-          data-bs-toggle="modal"
-          data-bs-target="#popupModal"
-          data-modal-title="Call Back">
-          <a class="text-decoration-none">
-            <i class="fa-solid fa-phone fa-beat me-2"></i> Call Back
+        <li class="nav-item ps-1" data-modal-title="Call Now">
+          <a
+            class="text-decoration-none"
+            onclick="return gtag_report_conversion('tel:+919136127464');"
+            href="tel:+919136127464">
+            <i class="fa-solid fa-phone fa-beat me-2"></i> Call Now
           </a>
         </li>
         <li
