@@ -34,7 +34,9 @@ const handleFormSubmit = async (
     ip_address: await getIpAddress(),
     website_url: window.location.href,
     to_email: "aristosocialmedia9@gmail.com",
-    company_name: "GODREJ KHARGHAR",
+    company_name: "Godrej Kharghar",
+    date: new Date().toLocaleDateString("en-GB"),
+    cc_email: "cbWR9lQS-197a6H60@v1-incoming-leads.privyr.com",
   };
 
   // Send Form
